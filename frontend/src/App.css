@@ -1,0 +1,35 @@
+.btnRnd {
+  width: 40%;
+  height: 30px;
+  border-radius: 50%;
+  margin: 7px 10px 7px 10px;
+  padding: 0px;
+}
+
+.bdg{
+    padding: 2px 4px;
+    font-size: 15px;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.inpts_area{
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(79,79,79);
+    transition: 0.25s;
+    /* border-radius: 5px; */
+    padding: 2px 15px;
+    width: 100%;
+    /* padding: 7px 10px 7px 10px; */
+    margin: 0;
+  }
+  
+  .inpts_area:hover{
+  border-bottom: 1px solid rgb(34, 199, 92);
+  background-color: rgb(229, 229, 229);
+  border-radius: 7px;
+
+}

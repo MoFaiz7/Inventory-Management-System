@@ -1,0 +1,96 @@
+
+.head {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 25px;
+    color: rgb(44, 44, 44);
+    border-left: 7px solid rgb(47, 200, 255);
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    margin-top: 20px;
+}
+
+.main_Box{
+    min-width: 50vw;
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box,
+        linear-gradient(to right, rgb(23, 187, 242), rgb(211, 31, 235)) border-box;
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    padding: 14px 21px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .main_Box {
+      min-height: 50vw;
+    }
+    .right{
+        display: none;
+    }
+  }
+
+.inpts{
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(79,79,79);
+    transition: 0.25s;
+    /* border-radius: 5px; */
+    width: 100%;
+    padding: 7px 10px 7px 10px;
+    margin-bottom: 20px;
+}
+
+.inpts__FeedItem{
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(79,79,79);
+    transition: 0.25s;
+    /* border-radius: 5px; */
+    width: 100%;
+    /* padding: 7px 10px 7px 10px; */
+    margin-bottom: 7px;
+}
+
+.inpts:hover{
+    background: rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(23, 158, 242);
+}
+.inpts__FeedItem:hover{
+    background: rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(23, 158, 242);
+}
+
+.colwhite{
+    color: grey;
+}
+
+.fntsz{
+    font-size: 20px;
+}
+
+.loginImg{
+    height: 300px;
+    width: 300px;
+}
+
+.error{
+    padding: 5px 7px 5px 7px;
+    margin: 1rem 0 1rem 0;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: rgb(254, 199, 199);
+    color: red;
+}
